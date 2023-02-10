@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: #22212C;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.a {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-style: normal;
+    font-style: normal;
+    color: #837E9F;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.component {
+    background-color: #302F3D;
+}
+
+.esquerda {
+    left: 40px;
+    width: 348px;
+}
+
+.direita {
+    width: 952px;
+    height: 86px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 348px;
+    height: 292px;
+    left: 40px;
+    top: 40px;
+}
+.nome-principal {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 29px;
+}
+
+.ocupacao {
+
+}
+
+.meus-links {
+    display: flex;
+    flex-direction: column;
+    justify-items: left;
+    width: 348px;
+    height: 348px;
+    left: 40px;
+    top: 362px;
+
+}
+
+.technologies {
+    display: flex;
+    justify-content: left;
+    width: 348px;       
+    height: 208px;
+    left: 40px;
+    top: 740px;     
+}
+
+.tech {
+    background-color: #CB92B1;
+    width: 86px;
+    height: 24px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
